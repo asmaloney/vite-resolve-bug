@@ -1,0 +1,25 @@
+{
+  "name": "vite-resolve-bug",
+  "description": "Minimal test to track down buefy resolving problem",
+  "author": "Andy Maloney <asmaloney@gmail.com> (https://asmaloney.com)",
+  "homepage": "https://github.com/asmaloney/vite-resolve-bug",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite --force",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "buefy": "^0.9.20",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "typescript": "~4.6.4",
+    "vite": "^2.9.8",
+    "vite-plugin-vue2": "^2.0.0",
+    "vue-template-compiler": "^2.6.14",
+    "vue-tsc": "^0.34.11"
+  }
+}
